@@ -21,7 +21,9 @@ end
 
 def find_the_cheese(cheese)
   if cheese.include?("cheddar")
-    puts #{cheese}
+    puts #{cheese.split}
+  else
+    
   end
 end
 
