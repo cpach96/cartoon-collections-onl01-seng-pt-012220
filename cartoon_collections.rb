@@ -10,7 +10,7 @@ def summon_captain_planet(planeteer)
     planeteer.map! {|c| c.capitalize + "!"}
 end
 
-def long_planeteer_calls(calls)
+def long_planeteer_calls(calls_short)
   if calls.any? {|i| i > 4}
     
   else
