@@ -22,7 +22,6 @@ end
 def find_the_cheese(cheese)
   if cheese.detect{|i| i.include?("cheddar")
     puts i
-  else
     
   end
 end
