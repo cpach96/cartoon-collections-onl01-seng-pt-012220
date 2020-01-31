@@ -20,9 +20,7 @@ else
 end
 
 def find_the_cheese(cheese)
-  if cheese.include?("cheddar")
-    puts #{cheese.split}
-  else
+  if cheese.include
     
   end
 end
