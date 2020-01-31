@@ -20,7 +20,7 @@ else
 end
 
 def find_the_cheese(cheese)
-  if cheese.include
+  if cheese.detect 
     
   end
 end
