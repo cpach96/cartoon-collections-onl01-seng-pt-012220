@@ -1,9 +1,15 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(dwarves)
+  counter = 1
+    dwarves.each do |d|
+    puts "#{counter}. #{d}"
+    counter += 1 
+     end 
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(planeteer)
+  counter = 0 
+    planeteer.each
+  
 end
 
 def long_planeteer_calls# code an argument here
