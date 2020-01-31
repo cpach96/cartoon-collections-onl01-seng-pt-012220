@@ -20,10 +20,6 @@ else
 end
 
 def find_the_cheese(cheese)
-  if cheese.detect{|i| i.include?("cheddar")}
-  
-  else
-    
-  end
+   cheese.detect{|i| i.include?("cheddar")
 end
 
