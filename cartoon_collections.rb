@@ -8,9 +8,8 @@ end
 
 def summon_captain_planet(planeteer)
   counter = 0 
-  new_call = []
     planeteer.map! {|c| puts c.capitalize + "!"}
-  
+  counter += 
 end
 
 def long_planeteer_calls# code an argument here
