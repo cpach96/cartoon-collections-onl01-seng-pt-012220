@@ -8,6 +8,7 @@ end
 
 def summon_captain_planet(planeteer)
   counter = 0 
+  new_call = []
     planeteer.map! {|c| puts c.capitalize + "!"}
   
 end
