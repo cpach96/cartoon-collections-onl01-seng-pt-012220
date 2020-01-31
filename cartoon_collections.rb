@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(planeteer)
   counter = 0 
-    planeteer.each
+    planeteer.map! {|c| c.capitalize
   
 end
 
